@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.17">
-<file name="D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\src\main\java\co\com\qvision\certificacion\capacitacion\exceptions\DetallesPersonalesException.java">
+<file name="D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\src\main\java\co\com\qvision\certificacion\capacitacion\exceptions\DetallesPersonalesError.java">
 </file>
-<file name="D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\src\main\java\co\com\qvision\certificacion\capacitacion\exceptions\InicioDeSesionException.java">
+<file name="D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\src\main\java\co\com\qvision\certificacion\capacitacion\exceptions\InicioDeSesionError.java">
 </file>
 <file name="D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\src\main\java\co\com\qvision\certificacion\capacitacion\interactions\Esperar.java">
 </file>

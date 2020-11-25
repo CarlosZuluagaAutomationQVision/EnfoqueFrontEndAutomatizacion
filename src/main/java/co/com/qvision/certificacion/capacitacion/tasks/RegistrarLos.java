@@ -13,7 +13,21 @@ import net.serenitybdd.screenplay.questions.CurrentVisibility;
 
 import java.util.List;
 
-import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.*;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.BTN_EDITAR;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.BTN_GUARDAR;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.LBX_ESTADO_CIVIL;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.LBX_NACIONALIDAD;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.RDB_GENERO_F;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.RDB_GENERO_M;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.TXT_APELLIDO;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.TXT_APODO;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.TXT_FECHA_EXP_LICENCIA;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.TXT_FECHA_NACIMIENTO;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.TXT_ID_EMPLEADO;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.TXT_NOMBRE;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.TXT_NUMERO_LICENCIA;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.TXT_NUMERO_SSN;
+import static co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales.TXT_SERVICIO_MILITAR;
 import static co.com.qvision.certificacion.capacitacion.util.Constantes.GENERO;
 
 public class RegistrarLos implements Task {

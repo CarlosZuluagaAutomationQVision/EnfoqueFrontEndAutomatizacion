@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.11" sequence="0" timestamp="1606322656792" analysisTimestamp="1606322684388" release="">
+  <Project>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\exceptions\DetallesPersonalesError.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\exceptions\InicioDeSesionError.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\interactions\Esperar.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\model\DatosInicioSesionModel.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\model\DetallesPersonalesModel.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\questions\ElTitulo.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\questions\SuNombre.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\tasks\AbrirElNavegador.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\tasks\Iniciar.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\tasks\RegistrarLos.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\tasks\SeleccionarLa.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\userinterfaces\DetallesPersonales.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\userinterfaces\PaginaLogin.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\main\co\com\qvision\certificacion\capacitacion\util\Constantes.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\test\co\com\qvision\certificacion\capacitacion\runners\RunnerDetallesContacto.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\test\co\com\qvision\certificacion\capacitacion\runners\RunnerInicioOrange.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\test\co\com\qvision\certificacion\capacitacion\stepdefinitions\DetallesPersonalesStepDefinition.class</Jar>
+    <Jar>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\build\classes\java\test\co\com\qvision\certificacion\capacitacion\stepdefinitions\InicioSesionStepDefinition.class</Jar>
+    <AuxClasspathEntry>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\.scannerwork\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\.scannerwork\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>D:\Q-Vision L - Tecnico\Capacitaciones\BDD Front\Capacitacion Ejemplo\ejemplojenn\.scannerwork</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="26">
+    <MissingClass>net.serenitybdd.core.annotations.findby.By</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.Actor</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.Consequence</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.GivenWhenThen</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.Interaction</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.Question</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.Task</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.Tasks</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.actions.Click</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.actions.Enter</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.actions.Open</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.actions.SelectFromOptions</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.actors.OnStage</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.actors.OnlineCast</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.conditions.Check</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.conditions.ConditionalPerformable</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.matchers.WebElementStateMatchers</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.questions.CurrentVisibility</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.questions.Text</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.questions.UIStateReaderBuilder</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.targets.Target</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.targets.TargetBuilder</MissingClass>
+    <MissingClass>net.serenitybdd.screenplay.waits.WaitUntil</MissingClass>
+    <MissingClass>org.awaitility.Awaitility</MissingClass>
+    <MissingClass>org.awaitility.core.ConditionFactory</MissingClass>
+    <MissingClass>org.hamcrest.Matchers</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Wed, 25 Nov 2020 11:44:16 -0500" total_classes="18" referenced_classes="61" total_bugs="0" total_size="287" num_packages="9" java_version="1.8.0_121" vm_version="25.121-b13" cpu_seconds="19.06" clock_seconds="7.85" peak_mbytes="350.50" alloc_mbytes="3612.50" gc_seconds="0.47">
+    <FileStats path="co/com/qvision/certificacion/capacitacion/exceptions/DetallesPersonalesError.java" bugCount="0" size="5"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/exceptions/InicioDeSesionError.java" bugCount="0" size="5"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/interactions/Esperar.java" bugCount="0" size="12"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/model/DatosInicioSesionModel.java" bugCount="0" size="15"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/model/DetallesPersonalesModel.java" bugCount="0" size="75"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/questions/ElTitulo.java" bugCount="0" size="9"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/questions/SuNombre.java" bugCount="0" size="9"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/runners/RunnerDetallesContacto.java" bugCount="0" size="3"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/runners/RunnerInicioOrange.java" bugCount="0" size="3"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/stepdefinitions/DetallesPersonalesStepDefinition.java" bugCount="0" size="12"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/stepdefinitions/InicioSesionStepDefinition.java" bugCount="0" size="16"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/tasks/AbrirElNavegador.java" bugCount="0" size="8"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/tasks/Iniciar.java" bugCount="0" size="16"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/tasks/RegistrarLos.java" bugCount="0" size="29"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/tasks/SeleccionarLa.java" bugCount="0" size="10"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/userinterfaces/DetallesPersonales.java" bugCount="0" size="39"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/userinterfaces/PaginaLogin.java" bugCount="0" size="13"/>
+    <FileStats path="co/com/qvision/certificacion/capacitacion/util/Constantes.java" bugCount="0" size="8"/>
+    <PackageStats package="co.com.qvision.certificacion.capacitacion.exceptions" total_bugs="0" total_types="2" total_size="10">
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.exceptions.DetallesPersonalesError" sourceFile="DetallesPersonalesError.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.exceptions.InicioDeSesionError" sourceFile="InicioDeSesionError.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="co.com.qvision.certificacion.capacitacion.interactions" total_bugs="0" total_types="1" total_size="12">
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.interactions.Esperar" sourceFile="Esperar.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="co.com.qvision.certificacion.capacitacion.model" total_bugs="0" total_types="2" total_size="90">
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.model.DatosInicioSesionModel" sourceFile="DatosInicioSesionModel.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.model.DetallesPersonalesModel" sourceFile="DetallesPersonalesModel.java" interface="false" size="75" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="co.com.qvision.certificacion.capacitacion.questions" total_bugs="0" total_types="2" total_size="18">
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.questions.ElTitulo" sourceFile="ElTitulo.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.questions.SuNombre" sourceFile="SuNombre.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="co.com.qvision.certificacion.capacitacion.runners" total_bugs="0" total_types="2" total_size="6">
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.runners.RunnerDetallesContacto" sourceFile="RunnerDetallesContacto.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.runners.RunnerInicioOrange" sourceFile="RunnerInicioOrange.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="co.com.qvision.certificacion.capacitacion.stepdefinitions" total_bugs="0" total_types="2" total_size="28">
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.stepdefinitions.DetallesPersonalesStepDefinition" sourceFile="DetallesPersonalesStepDefinition.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.stepdefinitions.InicioSesionStepDefinition" sourceFile="InicioSesionStepDefinition.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="co.com.qvision.certificacion.capacitacion.tasks" total_bugs="0" total_types="4" total_size="63">
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.tasks.AbrirElNavegador" sourceFile="AbrirElNavegador.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.tasks.Iniciar" sourceFile="Iniciar.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.tasks.RegistrarLos" sourceFile="RegistrarLos.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.tasks.SeleccionarLa" sourceFile="SeleccionarLa.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="co.com.qvision.certificacion.capacitacion.userinterfaces" total_bugs="0" total_types="2" total_size="52">
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.userinterfaces.DetallesPersonales" sourceFile="DetallesPersonales.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.userinterfaces.PaginaLogin" sourceFile="PaginaLogin.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="co.com.qvision.certificacion.capacitacion.util" total_bugs="0" total_types="1" total_size="8">
+      <ClassStats class="co.com.qvision.certificacion.capacitacion.util.Constantes" sourceFile="Constantes.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1059" invocations="585" avgMicrosecondsPerInvocation="1810" maxMicrosecondsPerInvocation="342213" standardDeviationMicrosecondsPerInvocation="15382"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="668" invocations="61" avgMicrosecondsPerInvocation="10959" maxMicrosecondsPerInvocation="402039" standardDeviationMicrosecondsPerInvocation="51658"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="517" invocations="72" avgMicrosecondsPerInvocation="7183" maxMicrosecondsPerInvocation="452775" standardDeviationMicrosecondsPerInvocation="53017"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="386" invocations="589" avgMicrosecondsPerInvocation="655" maxMicrosecondsPerInvocation="15315" standardDeviationMicrosecondsPerInvocation="1132"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="329" invocations="215" avgMicrosecondsPerInvocation="1530" maxMicrosecondsPerInvocation="76628" standardDeviationMicrosecondsPerInvocation="7542"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="283" invocations="72" avgMicrosecondsPerInvocation="3935" maxMicrosecondsPerInvocation="193224" standardDeviationMicrosecondsPerInvocation="22829"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="222" invocations="72" avgMicrosecondsPerInvocation="3083" maxMicrosecondsPerInvocation="105990" standardDeviationMicrosecondsPerInvocation="14865"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="205" invocations="72" avgMicrosecondsPerInvocation="2850" maxMicrosecondsPerInvocation="85167" standardDeviationMicrosecondsPerInvocation="12958"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="185" invocations="61" avgMicrosecondsPerInvocation="3038" maxMicrosecondsPerInvocation="42878" standardDeviationMicrosecondsPerInvocation="7797"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.MethodReturnCheck" totalMilliseconds="135" invocations="18" avgMicrosecondsPerInvocation="7532" maxMicrosecondsPerInvocation="131376" standardDeviationMicrosecondsPerInvocation="30038"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="98" invocations="61" avgMicrosecondsPerInvocation="1607" maxMicrosecondsPerInvocation="53342" standardDeviationMicrosecondsPerInvocation="6861"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="97" invocations="18" avgMicrosecondsPerInvocation="5434" maxMicrosecondsPerInvocation="46526" standardDeviationMicrosecondsPerInvocation="14176"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="93" invocations="72" avgMicrosecondsPerInvocation="1300" maxMicrosecondsPerInvocation="29436" standardDeviationMicrosecondsPerInvocation="3795"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

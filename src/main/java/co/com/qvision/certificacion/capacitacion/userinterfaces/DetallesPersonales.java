@@ -1,10 +1,9 @@
 package co.com.qvision.certificacion.capacitacion.userinterfaces;
 
 import net.serenitybdd.core.annotations.findby.By;
-import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 
-public class DetallesPersonales {
+public final class DetallesPersonales {
 
 
     public static final Target BTN_MI_INFORMACION = Target.the("Boton para ingresar a la opcion My Info").locatedBy("//a[@id='menu_pim_viewMyDetails']//b[contains(text(),'My Info')]");
@@ -25,4 +24,7 @@ public class DetallesPersonales {
     public static final Target BTN_GUARDAR = Target.the("Boton para guardar los datos").located(By.id("btnSave"));
     public static final Target NOMBRE_VALIDACION = Target.the("Nombre para validar los datos guardados").locatedBy("//div[@id='profile-pic']//h1[contains(text(),'jennifer escalante')]");
 
+    private DetallesPersonales() {
+    }
 }
+

@@ -2,5 +2,5 @@ projectKey=ejemplojenn
 serverUrl=http://localhost:9000
 serverVersion=6.7.6.38781
 dashboardUrl=http://localhost:9000/dashboard/index/ejemplojenn
-ceTaskId=AXX_8-VTDcI6AT7EvYOr
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXX_8-VTDcI6AT7EvYOr
+ceTaskId=AXYASzBCDcI6AT7EvYO1
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXYASzBCDcI6AT7EvYO1
