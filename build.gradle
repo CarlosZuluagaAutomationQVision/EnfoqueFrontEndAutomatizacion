@@ -1,0 +1,53 @@
+group 'Qviision'
+version '1.0-SNAPSHOT'
+
+repositories {
+    jcenter()
+    mavenCentral()
+    mavenLocal()
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.1")
+    }
+}
+
+apply plugin: 'application'
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+
+dependencies {
+    testCompile 'net.serenity-bdd:serenity-core:2.0.1'
+    testCompile 'net.serenity-bdd:serenity-junit:2.0.1'
+    testCompile('junit:junit:4.12')
+    testCompile('org.assertj:assertj-core:1.7.0')
+    testCompile('org.slf4j:slf4j-simple:1.7.7')
+
+    compile 'net.serenity-bdd:serenity-cucumber:1.9.14'
+    compile 'net.serenity-bdd:serenity-screenplay:1.9.9'
+    compile 'net.serenity-bdd:serenity-screenplay-webdriver:1.9.9'
+    compile group: 'net.sf.jt400', name: 'jt400', version: '9.6'
+
+}
+
+tasks.withType(Test) {
+    ignoreFailures = true
+    gradle.startParameter.continueOnFailure = true
+    test.finalizedBy(aggregate)
+}
